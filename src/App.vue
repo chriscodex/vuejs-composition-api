@@ -1,6 +1,8 @@
 <script setup lang="ts">
 import DinamicComponent from './components/dinamicComponent/DinamicComponent-1.vue';
 import Hooks from './components/hooks/Hooks.vue';
+import ReactiveExample from './components/reactivity/ReactiveExample.vue';
+import ReactiveWatch from './components/reactivity/ReactiveWatch.vue';
 </script>
 
 <template>
@@ -8,4 +10,8 @@ import Hooks from './components/hooks/Hooks.vue';
   <DinamicComponent />
   <h3>Hooks</h3>
   <Hooks />
+  <h3>Reactive</h3>
+  <ReactiveExample />
+  <h3>Reactive Watch</h3>
+  <ReactiveWatch />
 </template>
