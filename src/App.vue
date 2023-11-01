@@ -4,6 +4,8 @@ import Hooks from './components/hooks/Hooks.vue';
 import ReactiveExample from './components/reactivity/ReactiveExample.vue';
 import ReactiveWatch from './components/reactivity/ReactiveWatch.vue';
 import ComputedExample from './components/computed/ComputedExample.vue';
+import PropExample from './components/props/PropExample.vue';
+import ProvideInjectExample from './components/provideInject/ProvideInjectExample.vue';
 </script>
 
 <template>
@@ -16,4 +18,6 @@ import ComputedExample from './components/computed/ComputedExample.vue';
   <h3>Reactive Watch</h3>
   <ReactiveWatch />
   <ComputedExample />
+  <PropExample first-name="Christian" last-name="Espinoza" />
+  <ProvideInjectExample />
 </template>
