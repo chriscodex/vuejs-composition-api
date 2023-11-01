@@ -3,6 +3,7 @@ import DinamicComponent from './components/dinamicComponent/DinamicComponent-1.v
 import Hooks from './components/hooks/Hooks.vue';
 import ReactiveExample from './components/reactivity/ReactiveExample.vue';
 import ReactiveWatch from './components/reactivity/ReactiveWatch.vue';
+import ComputedExample from './components/computed/ComputedExample.vue';
 </script>
 
 <template>
@@ -14,4 +15,5 @@ import ReactiveWatch from './components/reactivity/ReactiveWatch.vue';
   <ReactiveExample />
   <h3>Reactive Watch</h3>
   <ReactiveWatch />
+  <ComputedExample />
 </template>
