@@ -1,16 +1,14 @@
 <script setup lang="ts">
-import { computed, toRefs } from 'vue';
+import { computed, defineProps } from 'vue';
 
-const { firstName, lastName } = toRefs(
-  defineProps({
-    firstName: {
-      type: String,
-    },
-    lastName: {
-      type: String,
-    },
-  })
-);
+const { firstName, lastName } = defineProps({
+  firstName: {
+    type: String,
+  },
+  lastName: {
+    type: String,
+  },
+});
 
 const fullName = computed(() => {
   return `${firstName} ${lastName}`;
